@@ -21,24 +21,37 @@
     }
   ],
   "main": "lib/index.js",
+  "scripts": {
+    "test": "echo 'Error: no test specified' && exit 1",
+    "build": "mkdirp build && browserify -r ./:primermap -o build/primermap.js",
+    "build-browser": "npm run build",
+    "install": "npm run build",
+    "watch": "watchify -r ./:primermap -v -o build/primermap.js",
+    "w": "prunner \"npm run sniper\" \"npm run watch\"",
+    "sniper": "sniper ."
+  },
   "dependencies": {
-		"jquery":"2.1.1",
-        "fabric":"1.5.0"
-	},
+		"jquery": "2.1.1"
+  },
   "devDependencies": {
 		"mkdirp": "^0.5.0",
 		"browserify": "6.x",
 		"sniper": "0.x",
 		"watchify": "^1.0.6",
 		"prunner": "1.x"
-  }, 
+  },
   "sniper": {
     "js": [
-			"/lib/primermap.js",
-			"/lib/jquery-1.11.3.min.js",
-            "/lib/fabric.js"
-		]
-   }, 
+		"/build/primermap.js"
+	],
+    "css": [
+        "/css/primermap.css"
+    ],
+    "snippets": [
+        "examples"
+    ],
+    "first": "simple"
+  },
   "keywords": ["primer","oligo","biojs"],
-   "licenses": "MIT"
+  "license": "MIT"
 }

@@ -1,0 +1,82 @@
+{
+  "name": "fabric",
+  "description": "Object model for HTML5 canvas, and SVG-to-canvas parser. Backed by jsdom and node-canvas.",
+  "homepage": "http://fabricjs.com/",
+  "version": "1.6.0-rc.1",
+  "author": {
+    "name": "Juriy Zaytsev",
+    "email": "kangax@gmail.com"
+  },
+  "keywords": [
+    "canvas",
+    "graphic",
+    "graphics",
+    "SVG",
+    "node-canvas",
+    "parser",
+    "HTML5",
+    "object model"
+  ],
+  "browser": {
+    "canvas": false,
+    "fs": false,
+    "jsdom": false,
+    "xmldom": false
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kangax/fabric.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kangax/fabric.js/issues"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "node build.js modules=ALL exclude=json,gestures",
+    "test": "node test.js",
+    "lint": "jshint src && jscs src",
+    "lint_tests": "jshint test/unit --config .jshintrc_tests",
+    "export_dist_to_site": "cp dist/fabric.js ../fabricjs.com/lib/fabric.js",
+    "export_tests_to_site": "cp test/unit/*.js ../fabricjs.com/test/unit",
+    "all": "npm run build && npm run test && npm run lint && npm run lint_tests && npm run export_dist_to_site && npm run export_tests_to_site"
+  },
+  "dependencies": {
+    "canvas": "1.1.x",
+    "jsdom": "1.1.x",
+    "xmldom": "0.1.x"
+  },
+  "devDependencies": {
+    "execSync": "1.0.x",
+    "uglify-js": "2.4.x",
+    "jscs": "1.12.x",
+    "jshint": "2.7.x",
+    "qunit": "0.7.2",
+    "istanbul": "0.3.x"
+  },
+  "engines": {
+    "node": ">=0.4.0 && <1.0.0"
+  },
+  "main": "./dist/fabric.js",
+  "gitHead": "5d752d2b4d30d163d3650ddb3b5a627e43c55dd8",
+  "_id": "fabric@1.6.0-rc.1",
+  "_shasum": "3da3c5493017e8ae72d85770c8d8aa2175f7339d",
+  "_from": "fabric@",
+  "_npmVersion": "2.11.2",
+  "_nodeVersion": "0.12.5",
+  "_npmUser": {
+    "name": "kangax",
+    "email": "kangax@gmail.com"
+  },
+  "dist": {
+    "shasum": "3da3c5493017e8ae72d85770c8d8aa2175f7339d",
+    "tarball": "http://registry.npmjs.org/fabric/-/fabric-1.6.0-rc.1.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "kangax",
+      "email": "kangax@gmail.com"
+    }
+  ],
+  "directories": {},
+  "_resolved": "http://registry.npmjs.org/fabric/-/fabric-1.6.0-rc.1.tgz"
+}
