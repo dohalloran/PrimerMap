@@ -1,0 +1,23 @@
+
+<form>
+    <B><font face="verdana" size="4" color="green">Select a file for PrimerMap:</B>
+    <br>
+    <br>
+    </font>
+    <div id="page-wrapper">
+        <input type="file" id="fileInput"></input>
+        <pre id="fileDisplayArea"></pre>
+    </div>
+    <font face="verdana" size="4" color="green">
+        <br>
+    <font face="verdana" color="green">click <mark>submit</mark> to load map:</font>
+    <button type="button" id="loader">submit</button>
+    <input type="reset" value="Reset" onClick="window.location.reload()"></input>
+</form>
+<br>
+<br>
+<div id='canvas_container'>
+    <div id='ruler' class='ruler' data-items=''></div>
+    <canvas id="canvas2" width="12000" height="35"></canvas>
+    <canvas id="canvas" width="12000" height="6000"></canvas>
+</div>
