@@ -2,7 +2,7 @@
 
 [![NPM version](http://img.shields.io/npm/v/primermap.svg)](https://www.npmjs.org/package/primermap) 
 
-> loads a sequence:primer map
+> loads a sequence:primer map `npm install primermap`
 
 ## Getting Started
 *see file "PrimerMap_Sample.txt" in folder "example input" for input specifications*
