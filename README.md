@@ -5,7 +5,8 @@
 > loads a sequence:primer map
 
 ## Getting Started
-**see file "PrimerMapper_Sample.txt" in folder "example input" for input specifications**
+**see file "PrimerMap_Sample.txt" in folder "example input" for input specifications**
+
 **load a txt file that contains primer data organized as follows:**
 
 FS 23, 28, 35 _//where FS = starting base pair of forward primer_
