@@ -10,7 +10,6 @@
 *load a txt file that contains primer data organized as follows:*
 
 FS 23, 28, 35 _//where FS = starting base pair of forward primer_
-
 LF 19, 22, 20 _//where LF = length of each forward primer_
 
 RS 223, 228, 235 _//where RS = starting base pair of reverse primer_
