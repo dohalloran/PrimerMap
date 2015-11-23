@@ -5,6 +5,8 @@
 > loads a sequence:primer map `npm install primermap`
 
 ## Getting Started
+[Clickme to view the the package on the BioJS registry] (http://biojs.io/d/primermap)  
+
 **see file _"PrimerMap_Sample.txt"_ in folder _"example input"_ for input specifications**  
 **load a text file that contains primer data organized as follows:**
 
