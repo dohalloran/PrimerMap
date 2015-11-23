@@ -9,7 +9,7 @@
 
 *load a txt file that contains primer data organized as follows:*
 
-`FS 23, 28, 35 _//where FS = starting base pair of forward primer_
+FS 23, 28, 35 _//where FS = starting base pair of forward primer_
 
 LF 19, 22, 20 _//where LF = length of each forward primer_
 
@@ -19,7 +19,7 @@ LR 20, 21, 19 _//where LR = length of each reverse primer_
 
 gene_name my_favorite_gene _//insert the gene name after the '>' symbol_
 
-500 _//where number = length of sequence in bps to be inserted after '#' symbol_`
+500 _//where number = length of sequence in bps to be inserted after '#' symbol_
 
 
 
