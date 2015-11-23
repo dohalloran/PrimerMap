@@ -8,12 +8,12 @@
 **see file _"PrimerMap_Sample.txt"_ in folder _"example input"_ for input specifications**  
 **load a text file that contains primer data organized as follows:**
 
->FS 23, 28, 35 _//where FS = starting base pair of forward primer_  
->LF 19, 22, 20 _//where LF = length of each forward primer_  
->RS 223, 228, 235 _//where RS = starting base pair of reverse primer_  
->LR 20, 21, 19 _//where LR = length of each reverse primer_  
->gene_name my_favorite_gene _//insert the gene name after the '>' symbol_  
->500 _//where number = length of sequence in bps to be inserted after '#' symbol_
+>FS 23, 28, 35  _//where FS = starting base pair of forward primer_  
+>LF 19, 22, 20  _//where LF = length of each forward primer_  
+>RS 223, 228, 235  _//where RS = starting base pair of reverse primer_  
+>LR 20, 21, 19  _//where LR = length of each reverse primer_  
+>gene_name  _//insert the gene name after the '>' symbol_  
+>500  _//where number = length of sequence in bps to be inserted after '#' symbol_
 
 
 ## Contributing
