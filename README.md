@@ -5,7 +5,14 @@
 > loads a sequence:primer map
 
 ## Getting Started
-Install the module with: `npm install primermap`
+load a txt file that contains primer data organized as follows:
+FS 23, 28, 35 //where FS = starting base pair of forward primer
+LF 19, 22, 20 //where LF = lenght of each forward primer
+RS 223, 228, 235 //where RS = starting base pair of reverse primer
+LR 20, 21, 19 //where LR = lenght of each reverse primer
+> gene_name 23, 28, 35 //where FS = starting base pair of forward primer
+# 500 //where number = length of sequence in bps
+
 
 ## Contributing
 
