@@ -17,7 +17,7 @@ LR 20, 21, 19 _//where LR = length of each reverse primer_
 
 gene_name my_favorite_gene _//insert the gene name after the '>' symbol_
 
-500 _//where number = length of sequence in bps_
+500 _//where number = length of sequence in bps to be inserted after '#' symbol_
 
 
 
