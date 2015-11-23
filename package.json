@@ -1,7 +1,7 @@
 {
   "name": "primermap",
   "description": "loads a sequence:primer map",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "homepage": "https://github.com/dohalloran/primermap",
   "author": {
     "name": "dohalloran",
