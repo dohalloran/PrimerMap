@@ -5,13 +5,23 @@
 > loads a sequence:primer map
 
 ## Getting Started
-load a txt file that contains primer data organized as follows:
-FS 23, 28, 35 //where FS = starting base pair of forward primer
-LF 19, 22, 20 //where LF = lenght of each forward primer
-RS 223, 228, 235 //where RS = starting base pair of reverse primer
-LR 20, 21, 19 //where LR = lenght of each reverse primer
-> gene_name 23, 28, 35 //where FS = starting base pair of forward primer
-# 500 //where number = length of sequence in bps
+**load a txt file that contains primer data organized as follows:**
+
+FS 23, 28, 35 _//where FS = starting base pair of forward primer_
+
+LF 19, 22, 20 _//where LF = lenght of each forward primer_
+
+RS 223, 228, 235 _//where RS = starting base pair of reverse primer_
+
+LR 20, 21, 19 _//where LR = lenght of each reverse primer_
+
+gene_name 23, 28, 35 _//where FS = starting base pair of forward primer_
+
+500 _//where number = length of sequence in bps_
+
+
+
+
 
 
 ## Contributing
