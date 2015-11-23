@@ -15,9 +15,9 @@ RS 223, 228, 235 _//where RS = starting base pair of reverse primer_
 
 LR 20, 21, 19 _//where LR = length of each reverse primer_
 
-gene_name my_favorite_gene _//insert the gene name_
+> gene_name my_favorite_gene _//insert the gene name_
 
-500 _//where number = length of sequence in bps_
+# 500 _//where number = length of sequence in bps_
 
 
 
