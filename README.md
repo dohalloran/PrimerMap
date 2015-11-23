@@ -5,9 +5,8 @@
 > loads a sequence:primer map `npm install primermap`
 
 ## Getting Started
-**see file _"PrimerMap_Sample.txt"_ in folder _"example input"_ for input specifications**
-
-*load a txt file that contains primer data organized as follows:*
+**see file _"PrimerMap_Sample.txt"_ in folder _"example input"_ for input specifications**  
+**load a text file that contains primer data organized as follows:**
 
 >FS 23, 28, 35 _//where FS = starting base pair of forward primer_  
 >LF 19, 22, 20 _//where LF = length of each forward primer_  
