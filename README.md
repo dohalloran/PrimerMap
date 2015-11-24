@@ -7,9 +7,9 @@
 ## Getting Started
 **Into the text area enter the following data:**  
 1. Input the starting positions of each forward primer on a line that begins with **FS**  
-2. Input the forward primer length on a line that begins with **FL**  
-3. Input the starting positions of each forward primer on a line that begins with **RS**  
-4. Input the forward primer length on a line that begins with **RL**  
+2. Input the forward primer length on a line that begins with **LF**  
+3. Input the starting positions of each reverse primer on a line that begins with **RS**  
+4. Input the reverse primer length on a line that begins with **LR**  
 5. Input the sequence name on a line that begins with **>**    
 6. Input the sequence length on a line that begins with **#**  
 
