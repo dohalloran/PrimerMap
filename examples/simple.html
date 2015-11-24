@@ -1,16 +1,19 @@
 
 <form>
-    <B><font face="verdana" size="4" color="green">Select a file for PrimerMap:</B>
+        <B><font face="verdana" size="4" color="blue">Select a DNA sequence for PrimerDraw:</B>
     <br>
     <br>
     </font>
-    <div id="page-wrapper">
-        <input type="file" id="fileInput"></input>
-        <pre id="fileDisplayArea"></pre>
-    </div>
-    <font face="verdana" size="4" color="green">
+     <textarea id="fileInput" COLS=80 ROWS=6 wrap>
+     FS 10,22,32,43,55,59,67,76,86,94,97,118,148,160,180,190												
+     LF 28,19,27,19,16,25,19,20,23,19,23,21,20,24,17,18												
+     RS	2522,2498,2396,2354,2252,2251,2150,2050
+     LR	20,16,21,32,20,18,19,25
+     >	myFavoriteGene
+     #	2600
+    </textarea>
         <br>
-    <font face="verdana" color="green">click <mark>submit</mark> to load map:</font>
+    <font face="verdana" color="blue">click <mark>submit</mark> to load map:</font>
     <button type="button" id="loader">submit</button>
     <input type="reset" value="Reset" onClick="window.location.reload()"></input>
 </form>
