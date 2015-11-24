@@ -2,10 +2,23 @@
 
 [![NPM version](http://img.shields.io/npm/v/primermap.svg)](https://www.npmjs.org/package/primermap) 
 
-> loads a sequence:primer map
+**Loads a sequence:primer map**
 
 ## Getting Started
-Install the module with: `npm install primermap`
+**Into the text area enter the following data:**  
+1. Input the starting positions of each forward primer on a line that begins with **FS**  
+2. Input the forward primer length on a line that begins with **FL**  
+3. Input the starting positions of each forward primer on a line that begins with **RS**  
+4. Input the forward primer length on a line that begins with **RL**  
+5. Input the sequence name on a line that begins with **>**    
+6. Input the sequence length on a line that begins with **#**  
+
+press **submit** and enjoy the primer::sequence map  
+
+## Output
+- Scroll under the scaled sequence map to get a base pair position  
+- Visualize the forward primers as blue arrows and the reverse primers as red arrows  
+
 
 ## Contributing
 
