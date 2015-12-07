@@ -4,6 +4,8 @@
 
 **Loads a sequence:primer map**
 
+`npm install primermap`  
+
 ## Getting Started
 **Into the text area enter the following data:**  
 1. Input the starting positions of each forward primer on a line that begins with **FS**  
