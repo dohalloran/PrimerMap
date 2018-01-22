@@ -47,7 +47,7 @@
   },
   "devDependencies": {
     "execSync": "1.0.x",
-    "uglify-js": "2.4.x",
+    "uglify-js": "2.6.x",
     "jscs": "1.12.x",
     "jshint": "2.7.x",
     "qunit": "0.7.2",
